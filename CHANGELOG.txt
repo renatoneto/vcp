@@ -1,0 +1,11 @@
+28/05/2010
+	* Corrigido pequenos bugs no sistema de mensagems (flash) [Skape]
+	* Adicionada opção de extensão das imagens dos itens no config.php [Skape]
+	* Criado sistema de bloqueio para votar apenas uma vez, mesmo entrando em outra conta [Skape]
+	* corrigido tamanho da pop-up de voto, os valores estavam invertidos (width e height) [Skape]
+	* Corrigido timezone, a hora que a pessoa podia votar novamente estava aparecendo errada [Skape]
+	* Adicionado reload da página quando a pessoa clica pra votar em um top [Skape]
+	* Adicionada .htaccess na pasta _inc_ com deny from all para bloquear que os arquivos dela seja vizualizados [Skape]
+
+25/05/2010
+	* Iniciada criação do vCP [Skape]

@@ -1,0 +1,23 @@
+<?php
+//= Banco de dados ==========================================================
+define('HOST_IP', 'localhost');				// IP
+define('HOST_USER', 'root');				// Usuário
+define('HOST_PASS', '');					// Senha
+define('HOST_DB', 'ragnarok');				// Noma da database do servidor
+//===========================================================================
+
+$CONFIG['serverName'] = 'RagnarokRO';		// Nome do servidor
+$CONFIG['kafra'] = 600;						// Capacidade de Kafra (para poder entregar o item quando comprado)
+$CONFIG['admLevel'] = 99;					// Level para ter acesso ao menu de adm
+
+$CONFIG['bfTimes'] = 5;						// Erros que deve cometer no login antes de ser bloqueado
+$CONFIG['bfTime'] = 10;						// Tempo que fica bloqueado (em minutos)
+
+$CONFIG['itemUrl'] = 'http://www.ragnadb.com.br/img/small/';	// URL das imagens dos itens
+$CONFIG["itemExt"] = ".gif";	// extensão das imagens dos itens
+
+require('query.php');
+require('text.php');
+require('classes/vcp.class.php');
+$vcp = new vCP($CONFIG);
+?>
