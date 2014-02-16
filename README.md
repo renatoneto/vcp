@@ -11,8 +11,10 @@ Acesse install/index.php e preencha o formulário de instalação, feito isso o sis
 Erros comuns
 ===
 
-- Erro ao alterar a tabela login, verifique se o campo vcp_pontos já não existe
+### Erro ao alterar a tabela login, verifique se o campo vcp_pontos já não existe
+
 R: A tabela vcp_pontos já existe no seu banco de dados, você pode apaga-la e tentar instalar de novo, ou renomear o arquivo _inc_/config.php.default para _inc_/config.php e fazer as configurações manualmente.
 
-- Erro ao escrever arquivo de configuração
+### Erro ao escrever arquivo de configuração
+
 R: Você não tem permissão de escrita na pasta _inc_/
